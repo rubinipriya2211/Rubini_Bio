@@ -1,0 +1,95 @@
+.img > img{
+    height: 250px;
+    width: 200px;
+}
+
+.name{
+    width: 1230px;
+}
+
+.name > h1{
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(173deg, blue, blueviolet, skyblue, skyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-shadow: 2px blue;
+}
+
+.name > p{
+    text-indent: 420px; 
+    font-size: 20px;
+}
+.img{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    box-shadow: 3px 3px 3px blue ;
+}
+
+#one{
+    margin-top: 45px;
+}
+.pic{
+    display: flex;
+}
+
+.bio > h1{
+    text-align: center;
+}
+
+.bio{
+    background-color: black;
+    color: white;
+}
+
+.outer{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    background: linear-gradient(180deg, blue, skyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.con{
+    display: flex;
+}
+
+.data{
+    margin-left: 32px;
+}
+.val{
+    margin-left: 5px;
+}
+
+#bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#siz{
+    font-size: 17px;
+}
+
+.ug, .twelth, .tenth{
+    margin-left: 32px;
+    border: 1.5px solid rgb(6, 6, 145);
+    border-radius: 10px;
+    height: 60px;
+    width: 40%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ug, .twelth{
+    margin-bottom: 20px;
+}
